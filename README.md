@@ -79,6 +79,8 @@ Remove the first link in the prompt chain.
 ### `chain.unshift <function>`
 Add a _link function_ to the beginning of the prompt chain.
 
+### `chain.insert <function> <position>`
+Insert a _link function_ in front of the given position.
 
 ## Customization
 Chain uses several global variables to customize the prompt appearance. The most important one is `$chain_links`: a list of function names that print out a single link in the prompt.
